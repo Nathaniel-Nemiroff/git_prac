@@ -1,0 +1,26 @@
+#1 created repo on my github account called basic_repo
+
+#2
+cd [WORKSPACE]
+git clone https://github.com/USER/basic_repo
+
+#3
+touch newfile.txt
+cat > newfile.txt
+#...
+touch oldfile.doc
+cat > oldfile.doc
+#...
+
+#4
+git add -A
+git commit -m 'init'
+
+#5
+cat >> oldfile.doc
+#...
+git commit -m 'oldfile fix'
+
+#6 go to github and observe results
+
+#7 created this text file for upload
